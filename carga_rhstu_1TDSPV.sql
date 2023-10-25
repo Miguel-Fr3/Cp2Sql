@@ -7912,3 +7912,6 @@ INSERT INTO T_RHSTU_FORMA_PAGAMENTO (id_forma_pagto, nm_forma_pagto, ds_forma_pa
 INSERT INTO T_RHSTU_FORMA_PAGAMENTO (id_forma_pagto, nm_forma_pagto, ds_forma_pagto, st_forma_pagto, dt_cadastro, nm_usuario) VALUES (4, 'Cartão de Débito', 'Pagamento com cartão de débito', 'A', SYSDATE, user);
 INSERT INTO T_RHSTU_FORMA_PAGAMENTO (id_forma_pagto, nm_forma_pagto, ds_forma_pagto, st_forma_pagto, dt_cadastro, nm_usuario) VALUES (5, 'Dinheiro', 'Pagamento com dinheiro', 'A', SYSDATE, user);
 INSERT INTO T_RHSTU_FORMA_PAGAMENTO (id_forma_pagto, nm_forma_pagto, ds_forma_pagto, st_forma_pagto, dt_cadastro, nm_usuario) VALUES (6, 'Pix', 'Pagamento em dinheiro', 'A', SYSDATE, user);
+
+
+COMMIT
